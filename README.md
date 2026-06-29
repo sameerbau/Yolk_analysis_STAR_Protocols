@@ -1,6 +1,6 @@
 This code analyzes kymograph images to extract kymograph contours.
 
-    It uses vertical line scanning to identify the membrane's position.
+    It uses vertical line scanning to identify the yolk front's position.
     It converts pixel coordinates to physical units (microns and seconds) based on user-defined conversion factors.
     It cleans the contours by removing outliers and filling gaps using interpolation.
     It generates two visualizations for each kymograph:
